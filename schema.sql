@@ -1,9 +1,9 @@
 -- Initialize and Configure Database
-DROP DATABASE IF EXISTS employees_db;
-CREATE database employees_db;
+DROP DATABASE IF EXISTS employee_db;
+CREATE database employee_db;
 
 -- Select employee_db as the database to utilize and perform SQL operations on
-USE employees_db;
+USE employee_db;
 
 -- Create table department
 CREATE TABLE department (
@@ -11,7 +11,7 @@ CREATE TABLE department (
     -- Create unique id for each item
     id INT NOT NULL AUTO_INCREMENT,
     
-    --- Set col dept_name to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
+    -- Set col dept_name to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
     dept_name VARCHAR(30) NOT NULL,
 
     -- Set id as the primary key to uniquely identify each item in this table
@@ -24,10 +24,10 @@ CREATE TABLE employees (
     -- Create unique id for each item
     id INT NOT NULL AUTO_INCREMENT,
 
-    --- Set col first_name to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
+    -- Set col first_name to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
     first_name VARCHAR(30) NOT NULL,
 
-    --- Set col last_name to accept variable-length strings of max 30 characters, where data feild recieved can be empty
+    -- Set col last_name to accept variable-length strings of max 30 characters, where data feild recieved can be empty
     last_name VARCHAR(30) NULL,
     
     -- Set col role_id to accept only integers, where data feild recieved cannot be empty
@@ -47,7 +47,7 @@ create table roles (
     -- Create unique id for each item
     id INT NOT NULL AUTO_INCREMENT,
 
-    --- Set col title to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
+    --  Set col title to accept variable-length strings of max 30 characters, where data feild recieved cannot be empty
     title VARCHAR(30) NOT NULL,
 
     -- Set col salary to accept decimal numberical values, where data feild recieved cannot be empty

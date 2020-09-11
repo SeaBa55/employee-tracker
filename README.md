@@ -134,7 +134,10 @@ You are required to submit the following:
 * A video demonstrating the entirety of the app's functionality 
 
 ## Revisions
+
 employee-tracker_v1.0 - Initial commit. Added schema.sql file and created initial sql database configuration. 
+
+employee-tracker_v1.1 - Added file server.js, which sets up a mySQL instance, prompts users with action items using inquire, and based on user selection determines how to query employee_db. Currently, server.js is capable of viewing employees, department, and roles tables. The user also has the option to terminate the application by selecting "EXIT".
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
