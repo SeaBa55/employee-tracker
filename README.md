@@ -139,5 +139,7 @@ employee-tracker_v1.0 - Initial commit. Added schema.sql file and created initia
 
 employee-tracker_v1.1 - Added file server.js, which sets up a mySQL instance, prompts users with action items using inquire, and based on user selection determines how to query employee_db. Currently, server.js is capable of viewing employees, department, and roles tables. The user also has the option to terminate the application by selecting "EXIT".
 
+employee-tracker_v1.2 - Added function addEmployee to give functionality to user option "Add employee", and gives the user ability to add a new employee to emplyees table in emplyee_db (server.js lines 170-371); Added function addDept to give functionality to user option "Add department", and gives the user abiltiy to add a new departemnt to department table in emplyee_db (server.js lines 373-479); Added function addRole to give functionality to user option "Add role", and gives the user abiltiy to add a new role to roles table in emplyee_db (server.js lines 482-442).
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
