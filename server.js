@@ -33,11 +33,11 @@ const mainPrompt = [
         choices: [
             
             "View employees",
-            "View departments",
             "View roles",
-            "Add employee",
+            "View departments",
             "Add department",
             "Add role",
+            "Add employee",
             "Edit employee",
             "Remove employee",
             "EXIT"
@@ -1282,7 +1282,7 @@ function deleteEmployee() {
                             cli_prompt(); 
 
                         };
-                        
+
                     });
 
                 });
