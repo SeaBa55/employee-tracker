@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a Company Employee Information (Content) Managment System (CMS). This CMS tool uses a node backend along with inquirer to enable user management of company employees, roles, and departments in MySQL database employee_db through easy to use CLI. The application can be easily deployed from any local directory containing required files and packages, and utilized as a CLI in terminal.
+This application is a Company Employee Information Content Managment System (CMS). This CMS tool uses a node backend along with inquirer to enable user management of company employees, roles, and departments in MySQL database employee_db through easy to use CLI. The application can be easily deployed from any local directory containing required files and packages, and utilized as a CLI in terminal.
 
 ![Employee Tracker](Assets/employee-tracker.gif)
 
